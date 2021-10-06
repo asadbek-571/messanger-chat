@@ -1,0 +1,133 @@
+INSERT INTO languages (code, name)
+VALUES ('UZ', 'O`zbekcha');
+INSERT INTO languages (code, name)
+VALUES ('RU', 'Русский');
+INSERT INTO languages (code, name)
+VALUES ('EN', 'English');
+
+INSERT INTO errors (code, message, series, language_id)
+VALUES (10, 'Bu identifikatorda foydalanuvchi topilmadi : %s', 'CLIENT_ERROR', 1);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (10, 'Пользователь не найден с этим идентификатором : %s', 'CLIENT_ERROR', 2);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (10, 'No user found in this id : %s', 'CLIENT_ERROR', 3);
+
+INSERT INTO errors (code, message, series, language_id)
+VALUES (20, 'Bu identifikatorda kanal topilmadi : %s', 'CLIENT_ERROR', 1);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (20, 'Канал с этим идентификатором не найден : %s', 'CLIENT_ERROR', 2);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (20, 'No channel found in this id : %s', 'CLIENT_ERROR', 3);
+
+INSERT INTO errors (code, message, series, language_id)
+VALUES (30, 'Bu identifikatorda gurux topilmadi : %s', 'CLIENT_ERROR', 1);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (30, 'Группа с этим идентификатором не найдена : %s', 'CLIENT_ERROR', 2);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (30, 'No group found in this id : %s', 'CLIENT_ERROR', 3);
+
+INSERT INTO errors (code, message, series, language_id)
+VALUES (40, 'Bu identifikatorda chat topilmadi : %s', 'CLIENT_ERROR', 1);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (40, 'С этим идентификатором чата не найдено : %s', 'CLIENT_ERROR', 2);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (40, 'No chat found in this id : %s', 'CLIENT_ERROR', 3);
+
+INSERT INTO errors (code, message, series, language_id)
+VALUES (50, 'Bu identifikatorda chat topilmadi : %s', 'CLIENT_ERROR', 1);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (50, 'Имя пользователя с этим идентификатором не найдено : %s', 'CLIENT_ERROR', 2);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (50, 'No username found in this id : %s', 'CLIENT_ERROR', 3);
+
+INSERT INTO errors (code, message, series, language_id)
+VALUES (60, 'Bu identifikatorda sozlamalar topilmadi : %s', 'CLIENT_ERROR', 1);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (60, 'В этом идентификаторе настроек не найдено : %s', 'CLIENT_ERROR', 2);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (60, 'No settings found in this id : %s', 'CLIENT_ERROR', 3);
+
+INSERT INTO errors (code, message, series, language_id)
+VALUES (70, 'Bu identifikatorda shaxsiy chat topilmadi : %s', 'CLIENT_ERROR', 1);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (70, 'В этом идентификаторе нет личного чата : %s', 'CLIENT_ERROR', 2);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (70, 'No personal chat found in this id : %s', 'CLIENT_ERROR', 3);
+
+INSERT INTO errors (code, message, series, language_id)
+VALUES (80, 'Bu id da hech qanday xabar topilmadi : %s', 'CLIENT_ERROR', 1);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (80, 'По этому идентификатору сообщений не найдено : %s', 'CLIENT_ERROR', 2);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (80, 'No message found in this id : %s', 'CLIENT_ERROR', 3);
+
+INSERT INTO errors (code, message, series, language_id)
+VALUES (90, 'Bu id da hech qanday fayl topilmadi : %s', 'CLIENT_ERROR', 1);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (90, 'Файл с этим идентификатором не найден : %s', 'CLIENT_ERROR', 2);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (90, 'No file found in this id : %s', 'CLIENT_ERROR', 3);
+
+INSERT INTO errors (code, message, series, language_id)
+VALUES (51, 'Bu foydalanuvchi nomi allaqachon mavjud : %s', 'CLIENT_ERROR', 1);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (51, 'Такое имя пользователя уже существует : %s', 'CLIENT_ERROR', 2);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (51, 'This username already exists : %s', 'CLIENT_ERROR', 3);
+
+INSERT INTO errors (code, message, series, language_id)
+VALUES (41, 'Tavsif juda katta maksimal hajmi : %s', 'CLIENT_ERROR', 1);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (41, 'Слишком большое описание макс размер: %s', 'CLIENT_ERROR', 2);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (41, 'Description too large max size : %s', 'CLIENT_ERROR', 3);
+
+INSERT INTO errors (code, message, series, language_id)
+VALUES (61, 'Bu id da hech qanday bildirishnoma topilmadi : %s', 'CLIENT_ERROR', 1);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (61, 'По этому идентификатору уведомление не найдено : %s', 'CLIENT_ERROR', 2);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (61, 'No notification found in this id : %s', 'CLIENT_ERROR', 3);
+
+INSERT INTO errors (code, message, series, language_id)
+VALUES (71, 'Bu foydalanuvchi bilan chat yaratib bo`lmadi : %s', 'CLIENT_ERROR', 1);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (71, 'Не удалось создать чат с этим пользователем : %s', 'CLIENT_ERROR', 2);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (71, 'Could not create chat with this user : %s', 'CLIENT_ERROR', 3);
+
+
+INSERT INTO errors (code, message, series, language_id)
+VALUES (11, 'Ushbu elektron pochta ro`yxatdan o`tib bo`lgan : %s', 'CLIENT_ERROR', 1);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (11, 'Этот адрес уже зарегистрирован : %s', 'CLIENT_ERROR', 2);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (11, 'This email address is already registered : %s', 'CLIENT_ERROR', 3);
+
+INSERT INTO errors (code, message, series, language_id)
+VALUES (12, 'Elektron pochta manzili noto‘g‘ri : %s', 'CLIENT_ERROR', 1);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (12, 'Адрес электронной почты неверный : %s', 'CLIENT_ERROR', 2);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (12, 'The email address is incorrect : %s', 'CLIENT_ERROR', 3);
+
+INSERT INTO errors (code, message, series, language_id)
+VALUES (14, 'Ushbu id dagi foydalanuvchini bloklagansiz : %s', 'CLIENT_ERROR', 1);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (14, 'Вы заблокировали пользователя с этим идентификатором : %s', 'CLIENT_ERROR', 2);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (14, 'You have blocked this id user : %s', 'CLIENT_ERROR', 3);
+
+INSERT INTO errors (code, message, series, language_id)
+VALUES (15, 'Ushbu id dagi foydalanuvchi sizni bloklagan : %s', 'CLIENT_ERROR', 1);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (15, 'Пользователь с этим идентификатором заблокировал вас : %s', 'CLIENT_ERROR', 2);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (15, 'The user on this id has blocked you : %s', 'CLIENT_ERROR', 3);
+
+INSERT INTO errors (code, message, series, language_id)
+VALUES (81, 'Ushbu id li xabarni ko`rilgan deb belgilay olmaysiz : %s', 'CLIENT_ERROR', 1);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (81, 'Вы не можете пометить сообщение с этим идентификатором как просмотренное : %s', 'CLIENT_ERROR', 2);
+INSERT INTO errors (code, message, series, language_id)
+VALUES (81, 'You cannot mark a message with this id as viewed : %s', 'CLIENT_ERROR', 3);
